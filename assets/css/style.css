@@ -6,16 +6,19 @@
     background-color: #676767;
 }
 
-.ul-menu-color-home{
+.ul-menu-color-home {
     background-color: #e67e22;
 }
-.ul-menu-color-resume{
+
+.ul-menu-color-resume {
     background-color: #9b59b6;
 }
-.ul-menu-color-contact{
+
+.ul-menu-color-contact {
     background-color: #3498db;
 }
-.ul-menu-color-cv{
+
+.ul-menu-color-cv {
     background-color: #525252;
 }
 
@@ -27,7 +30,7 @@ header {
 
 .heading {
     margin-left: 50px;
-
+    height: 220px;
 }
 
 .logo {
@@ -36,6 +39,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
+    transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
@@ -48,11 +52,46 @@ header {
     color: #ffffff;
 }
 
-.title{
+.title {
     font-family: "Roboto", sans-serif;
-    font-weight:200;
+    font-weight: 200;
     font-size: 28px;
     margin-top: 20;
     margin-bottom: 90;
+    color: #ffffff;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    padding: 0;
+    text-align: center;
+}
+
+.menuitem a{
+    width:100%;
+    height:120px;
+    text-decoration:none;
     color:#ffffff;
+}
+
+.menuitem a i{
+    padding-top: 22px;
+    display:block;
+    color:#fafafa;
+    font-size: 26px;
+}
+
+.menuitem span{
+    display:block;
+    width:100%;
+    padding-top:5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
