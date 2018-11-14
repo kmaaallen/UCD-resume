@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -24,25 +25,64 @@
                 <div class="row">
                     <ul id="nav" class="list-inline clearfix">
                         <li class="col-xs-6 col-sm-3 ul-menu-color-home menuitem">
-                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-home"aria-hidden="true"></i><span>Home</span></a>
+                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden=true></i><span>Home</span></a>
                         </li>
                         <li class="col-xs-6 col-sm-3 ul-menu-color-resume menuitem">
-                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"aria-hidden="true"></i><span>Resume</span></a>
+                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden=true></i><span>Resume</span></a>
                         </li>
                         <li class="col-xs-6 col-sm-3 ul-menu-color-contact menuitem">
-                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-commenting-o"aria-hidden="true"></i><span>Contact</span></a>
+                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-commenting-o" aria-hidden=true></i><span>Contact</span></a>
                         </li>
                         <li class="col-xs-6 col-sm-3 ul-menu-color-cv menuitem">
-                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download"aria-hidden="true"></i><span>Download CV</span></a>
+                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden=true></i><span>Download CV</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
-
     <section class="container-fluid">
         <div class="row row-table">
+            <div class="col-xs-12 col-sm-12 col-md-4 bg-color-personal-info section-column">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-heading uppercase">Personal Info</h3>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Name:</p>
+                    </div>
+                    <div class="value">
+                        <p>Kirsten Allen</p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Address:</p>
+                    </div>
+                    <div class="value">
+                        <p>123 Smith Street, London, United Kingdom</p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Phone:</p>
+                    </div>
+                    <div class="value">
+                        <p>01234567890</p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">Email:</p>
+                    </div>
+                    <div class="value">
+                        <p>K.Allen@email.com</p>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-xs-12 col-sm-12 col-md-8 bg-color-three-reasons section-column">
                 <div class="row">
                     <div class="col-md-12">
@@ -60,7 +100,7 @@
                                 <p> Design simple and effective websites and applications using HTML, CSS and JavaScript.</p>
                             </div>
                         </div>
-                    </div>  <div class="row">
+                    </div>
                     <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
                         <div class="row">
                             <div class="col-xs-2 col-sm-2 col-md-2">
@@ -72,7 +112,6 @@
                             </div>
                         </div>
                     </div>
-                      <div class="row">
                     <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
                         <div class="row">
                             <div class="col-xs-2 col-sm-2 col-md-2">
@@ -84,7 +123,6 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -96,13 +134,13 @@
                 <p class="inline-block"> Full Stack Web Developer. Designing and implementing simple websites using HTML and CSS.</p>
             </div>
             <div class="col-sm-4">
-                <h5 "uppercase general-sub">Download my CV</h5>
+                <h5 class="uppercase general-sub">Download my CV</h5>
                 <p class="inline-block">Need a printable version of my CV? Download it here.
                     <a href="#" class="cv-pdf"><i class="fa fa-download" aria-hidden=true></i></a>
                 </p>
             </div>
             <div class="col-sm-4">
-                <h5 "uppercase general-sub">My Social</h5>
+                <h5 class="uppercase general-sub">My Social</h5>
                 <ul class="list-inline social-links">
                     <li><a target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li><a target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -112,11 +150,8 @@
                     <li><a target="_blank"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
-
         </div>
-
     </footer>
-
 </body>
 
 </html>
