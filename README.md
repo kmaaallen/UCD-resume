@@ -2,7 +2,7 @@
 ## Project
 This project is part of Code Institute's Diploma in Software Development.
 It is to create a CV webpage, showcasing a developer's skills, work experience,
-personal statement and other relevant content to attract potential employers.
+personal statement and other relevant content to attract potential employers. 
 It should demonstrate responsive and user centric design.
 My site can be viewed <a href="https://kmaaallen.github.io/UCD-resume/" target="_blank">here!</a>
 ## Technology
