@@ -42,6 +42,14 @@
     background-color:#381134;
 }
 
+.ul-menu-color-interests {
+    background-color:#008080;
+}
+
+.ul-menu-color-github {
+    background-color:#0000FF;
+}
+
 
 /*-------------------------------Special Paddings/margins/text*/
 
@@ -96,7 +104,7 @@ header {
 }
 
 .logo {
-    background: url(../images/profilepic.jpg);
+    background: url(/assets/images/rosie.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
